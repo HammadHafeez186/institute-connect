@@ -17,12 +17,12 @@ InstituteConnect is a Spring Boot staff management API with JWT authentication a
 ### Prerequisites
 
 - Java 17
-- Maven, or the included Maven Wrapper on Windows (`mvnw.cmd`)
+- Maven
 
 ### Run the application
 
 ```powershell
-.\mvnw.cmd spring-boot:run
+mvn spring-boot:run
 ```
 
 The application starts on port `8082`.
@@ -30,7 +30,7 @@ The application starts on port `8082`.
 ### Run tests
 
 ```powershell
-.\mvnw.cmd test
+mvn test
 ```
 
 ## Default Access
